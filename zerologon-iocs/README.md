@@ -16,4 +16,4 @@ Event ID 4742 with Subject > Security ID as ANONYMOUS, Subject > Account Name as
 
 ## Network Traffic Artifacts
 
-Large amount of NetrServerReqChallenge and NetrServerAuthenticate2 request/response pairs, followed by one NetrServerPasswordSet2 request/response.
+Large amount of NetrServerReqChallenge and NetrServerAuthenticate2 request/response pairs, followed by one NetrServerPasswordSet2 request/response. For more information, see the [packet capture](zerologon-network-activity.pcapng) associated with the attack.
