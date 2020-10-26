@@ -12,7 +12,7 @@ lsadump::Zerologon /target:dc-01 /account:dc-01$ /null /ntlm /exploit
 
 ## Security Event Log Artifacts
 
-Event ID 4742 with Subject > Security ID as ANONYMOUS, Subject > Account Name as ANONYMOUS, domain as NT AUTHORITY. Computer Account That Was Changed > Account Name should be the domain controller computer account (i.e DC-01$).
+Event ID 4742 with Subject > Security ID as ANONYMOUS, Subject > Account Name as ANONYMOUS, domain as NT AUTHORITY. Computer Account That Was Changed > Account Name should be the domain controller computer account (i.e DC-01$). For more information, see the [filtered event log](zerologon-dc-security-ioc.evtx) file.
 
 ## Network Traffic Artifacts
 
