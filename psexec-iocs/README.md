@@ -7,7 +7,7 @@ PsExec is a sysinternals utility that allows for the execution of commands on a 
 Test was run from a domain-joined Windows 10 host (W10-01, 10.100.0.10), targeting a Windows Server 2012 Domain Controller (DC-01, 10.100.0.2). Remote binary executed was powershell.exe.
 
 ```
-	PsExec64.exe  \\dc-01 -accepteula -u HOMELAB\Administrator -p "Password!" powershell.exe
+PsExec64.exe  \\dc-01 -accepteula -u HOMELAB\Administrator -p "Password!" powershell.exe
 ```
 
 ## System Event Log Artifacts - Target Endpoint
